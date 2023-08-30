@@ -1,0 +1,28 @@
+.footerGeneral{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 5px 5px 0px 0px;  
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.842);
+
+}
+.footerDerecha{
+    margin: 1%;
+}
+.footerIzquierda{
+    margin: 1%;
+}
+.copyFooter{
+    font-size: 100%;
+    text-align: center;
+    margin: 1%;
+}
+.cajaFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.linkFooter{
+    margin: 1% 2%;
+    color: rgba(0, 0, 255, 0.719);
+}
