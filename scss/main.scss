@@ -1,5 +1,4 @@
 .mainGeneral{
-    
     padding: 1%;
     display: flex;
     flex-direction: column;
@@ -12,30 +11,25 @@
     align-items: center;
 }
 .tituMain{
-    background-color: rgb(226, 226, 226);
     text-align: center;
     margin: 1%;
     padding: 1%;
     color: black;
-    border-radius: 3px;
-    box-shadow: 2px 2px 10px rgb(0, 0, 0);
     font-family: "Libre Baskerville", serif;
 }
 .respuestaMain{
     color:  black;
     border-top: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .parrafo{
-    background-color: rgb(226, 226, 226);
     background-size: cover;
     background-attachment: fixed;
     border-radius: 3px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.842);
     margin: 1%;
     padding: 1%;
-    font-family: "Libre Baskerville", serif;
-    font-size: 120%;
-
 }
 .btnMain{
     color: white;
@@ -45,4 +39,74 @@
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.842);
     padding: 0.5%;
     margin-top: 2%;
+    margin-bottom: 3%;
+}
+.imgParrafo{
+    width: 17%;
+    height: auto;
+    margin: 2%;
+    border: black 2px solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px black;
+}
+@media (max-width: 1046px) {
+    .imgParrafo{
+        width: 24%;
+    }
+}
+@media (max-width: 912px) {
+    .imgParrafo{
+        width: 28%;
+    }
+}
+@media (max-width: 780px) {
+    .imgParrafo{
+        width: 30%;
+    }
+}
+@media (max-width: 654px) {
+    .imgParrafo{
+        width: 32%;
+    }
+}
+@media (max-width: 516px) {
+    .imgParrafo{
+        width: 34%;
+    }
+}
+@media (max-width: 442px) {
+    .imgParrafo{
+        width: 36%;
+    }
+}
+@media (max-width: 362px) {
+    .imgParrafo{
+        width: 38%;
+    }
+}
+@media (max-width: 282px) {
+    .imgParrafo{
+        width: 40%;
+    }
+}
+
+.txtParrafo{
+    margin: 7% 1%;
+    padding: 1%;
+    font-family: "Libre Baskerville", serif;
+    font-size: 120%;
+    float: right;
+    clear: right;
+}
+
+.separador {
+    border: 0.5px solid rgba(85, 85, 85, 0.603);
+    box-shadow: 10px 10px 7px rgb(109, 109, 109);
+    width: 70%;
+    margin: 20px auto;
+}
+.sobreMiTitu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
 }
