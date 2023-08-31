@@ -1,5 +1,7 @@
 .bodyGeneral{
-    background-color: rgba(32, 11, 153, 0.842);
+    background-color: rgb(194, 194, 194);
+    overflow-y: auto;
+    width: 100%;
 }
 ul {
     list-style: none;
@@ -8,3 +10,7 @@ ul {
 a{
     text-decoration: none;
 }
+body {
+    margin: 0;
+    padding: 0;
+  }

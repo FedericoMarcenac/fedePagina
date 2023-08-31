@@ -1,5 +1,5 @@
 .headerGeneral{
-    background-color: black;
+    background-color: rgb(165, 115, 148);
     margin: 0%;
     border-radius: 0px 0px 6px 6px;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.616);
@@ -12,8 +12,8 @@
     white-space: nowrap;
 }
 .lineaGris{
-    background-color:  rgba(9, 11, 153, 0.822);
-    border: rgba(9, 11, 153, 0.822) 2px solid;
+    background-color:  rgb(51, 90, 141);
+    border: rgb(51, 90, 141) 2px solid;
     border-radius: 4px;
     margin: 0.5% 0%;
 }
@@ -21,11 +21,11 @@
     width: 100%;
     height: auto;
     display: block;
-    max-width: 100%; 
+    
 }
 .tituHeader{
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.705);
-    background-color: rgba(32, 11, 153, 0.842); 
+    background-color: rgb(62, 93, 133); 
     color: #fff;
     padding: 1rem 1.5rem;
     font-size: 250%; 
@@ -35,7 +35,7 @@
 }
 .subHeader{
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.705);
-    background-color: rgba(32, 11, 153, 0.548);
+    background-color: rgb(88, 110, 139);
     color: #ffffffd0;
     padding: 1rem 2rem;
     font-size: 160%; 
@@ -52,11 +52,11 @@
     background-image: url(../img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg); 
     background-size: cover; 
     background-repeat: no-repeat; 
-    border-bottom: rgba(0, 0, 255, 0.5) 5px solid;
+    border-bottom: rgb(165, 115, 148) 5px solid;
 }
 .azul{
-    background-color: rgba(37, 10, 187, 0.808);
-    box-shadow: 2px 2px 4px rgba(32, 11, 153, 0.548);
+    background-color: rgba(255, 255, 255, 0.808);
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.548);
 }
 @media (max-width: 848px) {
     .tituHeader{
@@ -96,7 +96,7 @@
 
 .tituHeader2{
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.705);
-    background-color: rgba(32, 11, 153, 0.842); 
+    background-color: rgb(51, 90, 141); 
     color: #fff;
     padding: 1rem 1.5rem;
     font-size: 250%; 
@@ -127,5 +127,6 @@
        padding: 3%;
     }
 }
+
 
 
