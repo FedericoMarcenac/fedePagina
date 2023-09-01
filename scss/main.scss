@@ -13,6 +13,7 @@
 .tituMain{
     text-align: center;
     margin: 1%;
+    margin-top: 5%;
     padding: 1%;
     color: black;
     font-family: "Libre Baskerville", serif;
@@ -41,16 +42,29 @@
     margin-top: 2%;
     margin-bottom: 3%;
 }
+.margenDerecha{
+    margin-right: 20%;
+}
+.margenIzquierda{
+    margin-left: 20%;
+}
 .imgParrafo{
-    width: 17%;
+    width: 20%;
     height: auto;
     margin: 2%;
+    margin-top: 4%;
     border: black 2px solid;
     border-radius: 5px;
     box-shadow: 2px 2px 7px black;
 }
+.arreglando{
+    width: 20%;
+}
 @media (max-width: 1046px) {
     .imgParrafo{
+        width: 24%;
+    }
+    .arreglando{
         width: 24%;
     }
 }
@@ -58,9 +72,15 @@
     .imgParrafo{
         width: 28%;
     }
+    .areglando{
+        width: 28%;
+    }
 }
 @media (max-width: 780px) {
     .imgParrafo{
+        width: 30%;
+    }
+    .arreglando{
         width: 30%;
     }
 }
@@ -68,9 +88,15 @@
     .imgParrafo{
         width: 32%;
     }
+    .arreglando{
+        width: 32%;
+    }
 }
 @media (max-width: 516px) {
     .imgParrafo{
+        width: 34%;
+    }
+    .arreglando{
         width: 34%;
     }
 }
@@ -78,14 +104,23 @@
     .imgParrafo{
         width: 36%;
     }
+    .arreglando{
+        width: 36%;
+    }
 }
 @media (max-width: 362px) {
     .imgParrafo{
         width: 38%;
     }
+    .arregladno{
+        width: 38%;
+    }
 }
 @media (max-width: 282px) {
     .imgParrafo{
+        width: 40%;
+    }
+    .arreglando{
         width: 40%;
     }
 }
@@ -109,4 +144,45 @@
     display: flex;
     flex-direction: column;
     margin-top: 5%;
+}
+.circulo{
+    border-radius: 50%;
+}
+.margenDerecha{
+    margin-right: 20%;
+}
+.margenIzquierda{
+    margin-left: 20%;
+}
+@media (max-width: 914px) {
+    .margenDerecha{
+        margin-right: 10%;
+    }
+    .margenIzquierda{
+        margin-left: 10%;
+    }
+}
+@media (max-width: 614px) {
+    .margenDerecha{
+        margin-right: 5%;
+    }
+    .margenIzquierda{
+        margin-left: 5%;
+    }
+}
+@media (max-width: 522px) {
+    .margenDerecha{
+        margin-right: 2.5%;
+    }
+    .margenIzquierda{
+        margin-left: 2.5%;
+    }
+}
+@media (max-width: 432px) {
+    .margenDerecha{
+        margin-right: 1.25%;
+    }
+    .margenIzquierda{
+        margin-left: 1.25%;
+    }
 }

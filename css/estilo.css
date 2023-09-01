@@ -1,6 +1,5 @@
 .bodyGeneral {
-  background-color: rgb(194, 194, 194);
-  background-image: url(/img/pexels-johannes-plenio-1103970.jpg);
+  background-color: rgb(168, 183, 189);
   overflow-y: auto;
   width: 100%;
 }
@@ -28,15 +27,18 @@ body {
 
 .fuenteHeader {
   color: white;
+  font-size: 150%;
   font-family: "Roboto", sans-serif;
   text-align: center;
   white-space: nowrap;
 }
 
 .lineaGris {
-  background-color: rgba(73, 127, 129, 0.836);
+  background-color: rgb(55, 54, 117);
   border-radius: 4px;
-  margin: 0.5% 0%;
+  box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.705);
+  width: 15%;
+  margin: 0.75% auto;
 }
 
 .imgHeader {
@@ -54,6 +56,7 @@ body {
   border-radius: 4px;
   text-align: center;
   margin-top: 20%;
+  align-self: center;
 }
 
 .subHeader {
@@ -66,24 +69,31 @@ body {
   margin-bottom: 20%;
   text-align: center;
   border-radius: 3px;
+  align-self: center;
 }
 
 .contPortada {
   display: flex;
   flex-direction: column;
-  align-items: center;
   width: 100%;
-  background-image: url(../img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+  background-image: url(../img/fondonose.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  border-bottom: rgb(62, 93, 133) 5px solid;
 }
 
 .azul {
-  background-color: rgba(255, 255, 255, 0.808);
-  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.548);
+  background-color: rgb(62, 93, 133);
+  border: rgb(62, 93, 133) solid 1p;
 }
 
+@media (max-width: 1098px) {
+  .lineaGris {
+    width: 20%;
+  }
+  .fuenteHeader {
+    font-size: 140%;
+  }
+}
 @media (max-width: 848px) {
   .tituHeader {
     font-size: 200%;
@@ -92,6 +102,12 @@ body {
   .subHeader {
     font-size: 120%;
     margin-bottom: 40%;
+  }
+  .lineaGris {
+    width: 25%;
+  }
+  .fuenteHeader {
+    font-size: 130%;
   }
 }
 @media (max-width: 642px) {
@@ -102,6 +118,12 @@ body {
   .subHeader {
     font-size: 100%;
     margin-bottom: 55%;
+  }
+  .lineaGris {
+    width: 35%;
+  }
+  .fuenteHeader {
+    font-size: 120%;
   }
 }
 @media (max-width: 468px) {
@@ -115,7 +137,19 @@ body {
     padding: 3%;
     margin-bottom: 65%;
   }
+  .lineaGris {
+    width: 40%;
+  }
+  .fuenteHeader {
+    font-size: 110%;
+  }
 }
+.funciona {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .tituHeader2 {
   box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.705);
   background-color: rgb(51, 90, 141);
@@ -126,6 +160,7 @@ body {
   text-align: center;
   margin-top: 5%;
   margin-bottom: 5%;
+  align-self: center;
 }
 
 @media (max-width: 848px) {
@@ -167,6 +202,7 @@ body {
 .tituMain {
   text-align: center;
   margin: 1%;
+  margin-top: 5%;
   padding: 1%;
   color: black;
   font-family: "Libre Baskerville", serif;
@@ -199,17 +235,33 @@ body {
   margin-bottom: 3%;
 }
 
+.margenDerecha {
+  margin-right: 20%;
+}
+
+.margenIzquierda {
+  margin-left: 20%;
+}
+
 .imgParrafo {
-  width: 17%;
+  width: 20%;
   height: auto;
   margin: 2%;
+  margin-top: 4%;
   border: black 2px solid;
   border-radius: 5px;
   box-shadow: 2px 2px 7px black;
 }
 
+.arreglando {
+  width: 20%;
+}
+
 @media (max-width: 1046px) {
   .imgParrafo {
+    width: 24%;
+  }
+  .arreglando {
     width: 24%;
   }
 }
@@ -217,9 +269,15 @@ body {
   .imgParrafo {
     width: 28%;
   }
+  .areglando {
+    width: 28%;
+  }
 }
 @media (max-width: 780px) {
   .imgParrafo {
+    width: 30%;
+  }
+  .arreglando {
     width: 30%;
   }
 }
@@ -227,9 +285,15 @@ body {
   .imgParrafo {
     width: 32%;
   }
+  .arreglando {
+    width: 32%;
+  }
 }
 @media (max-width: 516px) {
   .imgParrafo {
+    width: 34%;
+  }
+  .arreglando {
     width: 34%;
   }
 }
@@ -237,14 +301,23 @@ body {
   .imgParrafo {
     width: 36%;
   }
+  .arreglando {
+    width: 36%;
+  }
 }
 @media (max-width: 362px) {
   .imgParrafo {
     width: 38%;
   }
+  .arregladno {
+    width: 38%;
+  }
 }
 @media (max-width: 282px) {
   .imgParrafo {
+    width: 40%;
+  }
+  .arreglando {
     width: 40%;
   }
 }
@@ -270,6 +343,50 @@ body {
   margin-top: 5%;
 }
 
+.circulo {
+  border-radius: 50%;
+}
+
+.margenDerecha {
+  margin-right: 20%;
+}
+
+.margenIzquierda {
+  margin-left: 20%;
+}
+
+@media (max-width: 914px) {
+  .margenDerecha {
+    margin-right: 10%;
+  }
+  .margenIzquierda {
+    margin-left: 10%;
+  }
+}
+@media (max-width: 614px) {
+  .margenDerecha {
+    margin-right: 5%;
+  }
+  .margenIzquierda {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 522px) {
+  .margenDerecha {
+    margin-right: 2.5%;
+  }
+  .margenIzquierda {
+    margin-left: 2.5%;
+  }
+}
+@media (max-width: 432px) {
+  .margenDerecha {
+    margin-right: 1.25%;
+  }
+  .margenIzquierda {
+    margin-left: 1.25%;
+  }
+}
 .footerGeneral {
   display: flex;
   flex-direction: column;

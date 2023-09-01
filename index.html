@@ -18,11 +18,10 @@
     <div class="contPortada">
       <h1 class="tituHeader text-uppercase">Federico Marcenac</h1>
       <h2 class="subHeader">Desarrollador web</h2>    
-    </div>  
     <nav class="navbar" id="navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href=""></a>
-        <button class="navbar-toggler azul" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button  id="toggleButton" class="navbar-toggler azul" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -31,22 +30,24 @@
               <a class="nav-link fuenteHeader" href="index.html">Inicio</a>
             </li>
             <li class="nav-item lineaGris">
-              <a class="nav-link fuenteHeader" href="/html/sobreMi.html">Sobre mi</a>
+              <a class="nav-link fuenteHeader" href="html/sobreMi.html">Sobre mi</a>
             </li>
             <li class="nav-item lineaGris">
-              <a class="nav-link fuenteHeader" href="/html/presupuesto.html">Presupuesto</a>
+              <a class="nav-link fuenteHeader" href="html/presupuesto.html">Presupuesto</a>
             </li>
             <li class="nav-item lineaGris">
-              <a class="nav-link fuenteHeader" href="/html/contaco.html">Contacto</a>
+              <a class="nav-link fuenteHeader" href="html/contaco.html">Contacto</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+  </div>
   </header>
     <main class="mainGeneral">
       <div class="cajaMain">
         <h2 class="tituMain">¿Porque es importante poseer una pagina web?</h2>
+        <div class="separador"></div>
         <div class="respuestaMain">
           <img class="imgParrafo" src="img/michael-baccin-XopauR-Nagk-unsplash.jpg" alt=""> <p class="txtParrafo">En la era digital actual, una página web es más que una tarjeta de presentación; es una herramienta esencial para establecer la imagen de tu empresa. La formalidad se refleja en una página web bien diseñada, mostrando que tomas en serio tu compromiso y profesionalismo.</p>                
         </div>
@@ -66,7 +67,7 @@
       <div class="cajaFooter">
         <div class="footerIzquierda">
           <ul>
-            <li><a class="linkFooter" href="index.html">inicio</a></li>
+            <li><a class="linkFooter " href="index.html">inicio</a></li>
             <li><a class="linkFooter" href="html/sobreMi.html">Sobre mi</a></li>
             <li><a class="linkFooter" href="html/presupuesto.html">Presupuesto</a></li>
             <li><a class="linkFooter" href="html/contaco.html">Contacto</a></li>
@@ -74,9 +75,9 @@
         </div>
         <div class="footerDerecha">
           <ul>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">Tik tok</a></li>
-            <li><a href="#">Github</a></li>
+            <li><a class="linkFooter" target="_blank" href="https://www.instagram.com/fede_marcenac/#">Instagram</a></li>
+            <li><a class="linkFooter" target="_blank" href="https://www.tiktok.com/@fede_marcenaccc">Tik tok</a></li>
+            <li><a class="linkFooter" target="_blank" href="https://github.com/FedericoMarcenac">Github</a></li>
           </ul>
         </div>
       </div>
@@ -86,6 +87,7 @@
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"
-    ></script>   
+    ></script>  
+    <script src="/html/script.js"></script> 
 </body>
 </html>
