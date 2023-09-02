@@ -171,11 +171,12 @@
 .pegajoso{
     position: sticky;
     top: -106%;
+    transition: transform 0.5s ease;
 
 }
 
 .pegajoso2{
     position: sticky;
-    top: -33%;
+    top: -32%;
     transition: transform 0.5s ease;
 }
