@@ -250,12 +250,6 @@ body {
 
 .imgEtiqueta {
   width: 110%;
-  height: auto;
-  margin: 10%;
-  margin-top: 4%;
-  border: black 2px solid;
-  border-radius: 5px;
-  box-shadow: 2px 2px 7px black;
 }
 
 .etiquetaPadre {
@@ -272,6 +266,10 @@ body {
   border: black 2px solid;
   border-radius: 5px;
   box-shadow: 2px 2px 7px black;
+}
+
+.imgEtiqueta {
+  width: 110%;
 }
 
 .arreglando {
