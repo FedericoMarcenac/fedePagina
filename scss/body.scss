@@ -1,9 +1,13 @@
 .bodyGeneral{
-    background-color: rgb(168, 183, 189);
- //   background-image: url(/img/pexels-johannes-plenio-1103970.jpg);
-    overflow-y: auto;
+  //  background-color: #a8b7bd;
+    background-image: url(../img/final.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: repeat-y;
     width: 100%;
+    background-attachment: scroll;
 }
+
 ul {
     list-style: none;
     padding-left: 0;

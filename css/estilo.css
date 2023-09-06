@@ -1,7 +1,10 @@
 .bodyGeneral {
-  background-color: rgb(168, 183, 189);
-  overflow-y: auto;
+  background-image: url(../img/final.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: repeat-y;
   width: 100%;
+  background-attachment: scroll;
 }
 
 ul {
@@ -49,7 +52,7 @@ body {
 
 .tituHeader {
   box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.705);
-  background-color: rgb(62, 93, 133);
+  background-color: #3e5d85;
   color: #fff;
   padding: 1rem 1.5rem;
   font-size: 250%;
@@ -61,7 +64,7 @@ body {
 
 .subHeader {
   box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.705);
-  background-color: rgb(88, 110, 139);
+  background-color: #586e8b;
   color: rgba(255, 255, 255, 0.8156862745);
   padding: 1rem 2rem;
   font-size: 160%;
@@ -226,6 +229,8 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .parrafo {
